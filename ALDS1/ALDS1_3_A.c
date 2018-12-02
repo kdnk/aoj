@@ -23,8 +23,8 @@ int main() {
     if (isdigit(s[0])) {
       push(atoi(s));
     } else {
-      a = pop();
       b = pop();
+      a = pop();
       if (s[0] == '+') {
         push(a + b);
       } else if (s[0] == '-') {
